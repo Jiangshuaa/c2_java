@@ -2,6 +2,7 @@ import java.util.*;
 
 /**
  * Created by jiangshuhua on 2017/5/8.
+ * 上传GitHub: http://blog.csdn.net/jeffleo/article/details/56017644
  */
 public class Main {
     public static void print(int index, Object obj) {
@@ -64,6 +65,7 @@ public class Main {
         print(3, map.containsValue("0"));
         print(4, map.get("2"));
         map.replace("1", "A");
+
         print(5, map);
     }
 
